@@ -1,6 +1,8 @@
-firstname,lastname,email 
-ajit1,sharma,aa1@aa.com
-john2,kumar,aa2@aa1.com
-keith3,smith,aa3@aa.com
-ross4,duckworth,aa4@aa1.com
-amit,kumar,aa5@aa.com
+firstname,lastname,email,dp,TCname
+ajit1,sharma,aa1@aa.com,0,TC1
+john2,kumar,aa2@aa1.com,0,TC2
+keith3,smith,aa3@aa.com,0,TC3
+ross4,duckworth,aa4@aa1.com,1,TC4
+amit,kumar,aa5@aa.com,1,TC5
+amit,kumar,,1,TC6
+amit,,aa5@aa.com,1,TC7

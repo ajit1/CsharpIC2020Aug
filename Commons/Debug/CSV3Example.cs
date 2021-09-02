@@ -7,8 +7,9 @@ using System.IO;
 
 namespace Commons.Debug
 {
-    class Csv2Example
+    class CSV3Example
     {
+
         [TestCaseSource("TestData")]
         public void CSVTestExample(BillingOrder order)
         {
@@ -28,7 +29,7 @@ namespace Commons.Debug
                         new BillingOrder(firstName: csv["firstname"],
                         lastName: csv["lastname"], email: csv["email"]);
 
-                    yield return new TestCaseData(order).SetName("Billing order TC " + csv["firstname"]);
+                    if (csv["dp"].Equals("1")) yield return new TestCaseData(order);
                 }
             }
         }
