@@ -20,7 +20,7 @@ namespace Commons.Debug
             using (var csv = new CsvReader(new StreamReader(Path.Combine(AppDomain.CurrentDomain.BaseDirectory) + "TestData\\basic.csv"), true))
             {
                 while (csv.ReadNextRecord())
-                    yield return csv["firstname"];
+                    yield return csv["firstname"] + " " + csv["lastname"] + " " + csv["email"];
             }
         }
     }
