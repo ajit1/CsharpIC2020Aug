@@ -16,7 +16,6 @@ namespace WebAutomation.Test
         public void SetUp()
         {
             driver = new ChromeDriver();
-            //  driver.Url = "http://qaauto.co.nz/billing-order-form/";
         }
 
         [TearDown]
@@ -29,6 +28,7 @@ namespace WebAutomation.Test
             orderPage.Login();
             orderPage.FirstName("Ajit");
             orderPage.LastName("Sharma");
+            orderPage.Submit();
         }
 
         //BillingOrder orderObject = new BillingOrder
