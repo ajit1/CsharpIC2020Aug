@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAutomation", "WebAutomation.csproj", "{C716EFEC-7E46-457F-B850-90D261638DDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ic.e2e.web", "Ic.e2e.web.csproj", "{C716EFEC-7E46-457F-B850-90D261638DDF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIAutomation", "..\APIAutomation\APIAutomation.csproj", "{27642463-5772-4D2E-97B7-696FE119C6E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ic.e2e.api", "..\APIAutomation\Ic.e2e.api.csproj", "{27642463-5772-4D2E-97B7-696FE119C6E1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Commons", "..\Commons\Commons.csproj", "{1F122BF7-DAD4-4A73-818D-4D0B43C67E86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ic.e2e.commons", "..\Commons\Ic.e2e.commons.csproj", "{1F122BF7-DAD4-4A73-818D-4D0B43C67E86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
